@@ -300,16 +300,33 @@ footer {
 
 @media only screen and (max-width: 480px) {
     nav {
-        font-size: .7rem;
+        display: flex;
+        justify-content: center;
+        font-size: .6rem;
         padding: 0rem;
     }
 
     nav li {
-        padding: 0rem 1rem;
+        padding: 0rem .9rem;
     }
 
     nav ul {
         padding: 0;
+        margin: 0;
+    }
+
+    .hero-container h1 {
+        position: relative;
+        top: 3.5rem;
+        word-spacing: -0.65rem;
+        flex: 1;
+    }
+
+    .hero-container h2 {
+        position: relative;
+        top: 27.4rem;
+        word-spacing: -0.65rem;
+        flex: 1;
     }
 
     .overview-container {
@@ -317,12 +334,12 @@ footer {
     }
 
     .overview-container h1 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .overview-container p {
         padding-top: .5rem;
-        font-size: .9rem;
+        font-size: .85rem;
         word-spacing: normal;
         line-height: 2rem;
         padding-left: 2rem;
@@ -330,13 +347,12 @@ footer {
         overflow: hidden;
     }
 
+    .quote-container {
+        font-size: 1.3rem;
+    }
+
     footer {
         font-size: .8rem;
         padding: 1rem 2rem;
     }
-
-  
-    
-
-
 }
